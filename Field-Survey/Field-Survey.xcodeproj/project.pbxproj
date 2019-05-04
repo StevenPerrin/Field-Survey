@@ -14,6 +14,10 @@
 		C6943343227BC083006BA446 /* Field_SurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6943342227BC083006BA446 /* Field_SurveyTests.swift */; };
 		C694334E227BC083006BA446 /* Field_SurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C694334D227BC083006BA446 /* Field_SurveyUITests.swift */; };
 		C6943361227BD20F006BA446 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6943360227BD20F006BA446 /* Model.swift */; };
+		C6943363227CFD6D006BA446 /* ObservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6943362227CFD6D006BA446 /* ObservationViewController.swift */; };
+		C6943365227CFDA5006BA446 /* ObservationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6943364227CFDA5006BA446 /* ObservationDetailViewController.swift */; };
+		C6943367227D09A8006BA446 /* ObservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6943366227D09A8006BA446 /* ObservationTableViewCell.swift */; };
+		C694336B227D0D20006BA446 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = C694336A227D0D20006BA446 /* field_observations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		C694334D227BC083006BA446 /* Field_SurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_SurveyUITests.swift; sourceTree = "<group>"; };
 		C694334F227BC083006BA446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6943360227BD20F006BA446 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C6943362227CFD6D006BA446 /* ObservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationViewController.swift; sourceTree = "<group>"; };
+		C6943364227CFDA5006BA446 /* ObservationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationDetailViewController.swift; sourceTree = "<group>"; };
+		C6943366227D09A8006BA446 /* ObservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservationTableViewCell.swift; sourceTree = "<group>"; };
+		C694336A227D0D20006BA446 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,9 @@
 				C694335B227BC682006BA446 /* Model */,
 				C694332D227BC082006BA446 /* AppDelegate.swift */,
 				C6943331227BC082006BA446 /* Main.storyboard */,
+				C6943364227CFDA5006BA446 /* ObservationDetailViewController.swift */,
+				C6943362227CFD6D006BA446 /* ObservationViewController.swift */,
+				C6943366227D09A8006BA446 /* ObservationTableViewCell.swift */,
 				C6943334227BC083006BA446 /* Assets.xcassets */,
 				C6943336227BC083006BA446 /* LaunchScreen.storyboard */,
 				C6943339227BC083006BA446 /* Info.plist */,
@@ -128,6 +139,7 @@
 		C694335B227BC682006BA446 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C694336A227D0D20006BA446 /* field_observations.json */,
 				C6943360227BD20F006BA446 /* Model.swift */,
 			);
 			path = Model;
@@ -238,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6943338227BC083006BA446 /* LaunchScreen.storyboard in Resources */,
+				C694336B227D0D20006BA446 /* field_observations.json in Resources */,
 				C6943335227BC083006BA446 /* Assets.xcassets in Resources */,
 				C6943333227BC082006BA446 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C694332E227BC082006BA446 /* AppDelegate.swift in Sources */,
+				C6943367227D09A8006BA446 /* ObservationTableViewCell.swift in Sources */,
+				C6943363227CFD6D006BA446 /* ObservationViewController.swift in Sources */,
+				C6943365227CFDA5006BA446 /* ObservationDetailViewController.swift in Sources */,
 				C6943361227BD20F006BA446 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
